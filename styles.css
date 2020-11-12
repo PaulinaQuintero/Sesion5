@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 70%;
+  text-align: center;
+}
+
+nav > ul > li {
+  display: inline-block;
+  text-align: center;
+  font-family: "sans serif";
+  font-size: 25px;
+  margin: 14px;
+}
+
+nav > ul > li > a {
+  text-emphasis: none;
+}
+
+.actions {
+  width: 15%;
+}
+
+#logo {
+  width: 15%;
+}
+
+button {
+  font-family: "sans serif";
+  color: white;
+  background-color: green;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.actions > a {
+  color: green;
+}
+
+.actions > * {
+  padding: 20px;
+}
+
+.actions > button:hover {
+  background-color: rgb(109, 179, 179);
+}
